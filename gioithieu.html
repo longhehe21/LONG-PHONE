@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - LONG - PHONE</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+        
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Công ty LONG - PHONE: Đổi Mới Công Nghệ Di Động
+            </h4>
+            <div class="page-info">
+                <p>LONG - PHONE là một doanh nghiệp tiên phong trong lĩnh vực công nghệ di động, chuyên tập trung vào việc phát triển và cung cấp các sản phẩm và dịch vụ đổi mới để đáp ứng nhu cầu ngày càng đa dạng của khách hàng trên toàn cầu. Dưới đây là một số đặc điểm nổi bật của công ty:
+                </p>
+                <br />
+                <p>
+                    Sản Phẩm Đa Dạng: LONG - PHONE chuyên sản xuất các dòng điện thoại thông minh với thiết kế đẹp mắt, hiệu suất cao, và tính năng độc đáo. Từ các mô hình giá trung bình đến các sản phẩm cao cấp, công ty cam kết đem đến trải nghiệm người dùng tốt nhất.<br />
+                    Nghiên Cứu và Phát Triển: Đội ngũ nghiên cứu và phát triển của LONG - PHONE luôn đặt sự sáng tạo vào trung tâm, không ngừng nghiên cứu và áp dụng công nghệ mới nhất để cung cấp các giải pháp di động tiên tiến.<br />
+                    Bảo mật và Quyền Riêng Tư: LONG - PHONE cam kết đảm bảo an toàn thông tin của người dùng. Các sản phẩm được trang bị tính năng bảo mật cao và chú trọng đến quyền riêng tư cá nhân.<br />
+                    Dịch Vụ Khách Hàng Chuyên Nghiệp: Công ty luôn đặt khách hàng lên hàng đầu. Dịch vụ hỗ trợ khách hàng của LONG - PHONE được thiết kế để đáp ứng nhanh chóng và chuyên nghiệp mọi yêu cầu của khách hàng.<br />
+                    LONG - PHONE tự hào là một đối tác đáng tin cậy cho những người đam mê công nghệ di động và luôn không ngừng đổi mới để mang lại những trải nghiệm tốt nhất cho người dùng.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
